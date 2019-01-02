@@ -1,24 +1,40 @@
+p {
+    color: blue;
+    font-size: 22px;
+    font: bold;
+}
+
+div {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    width: 260px;
+    height: 140px;
+}
+
 .eka {
     background-color: red;
     position: absolute;
-    width: 240px;
-    height: 120px;
-    
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
 }
 
 .toka {
     background-color: yellow;
     position: absolute;
-    left: 300px;
-    width: 240px;
-    height: 120px;
+    left: 340px;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
 }
 
 .kolmas {
     background-color: green;
     position: absolute;
-    left: 600px;
-    width: 240px;
-    height: 120px;
+    left: 660px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 10px;
     
 }
