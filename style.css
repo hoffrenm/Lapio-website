@@ -1,15 +1,30 @@
-li {
-    color: plum;
+body {
+    margin: 0 auto;
+    max-width: 55em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
 }
 
-.paaotsikko {
-    color: blue;
+a {
+    color: blue
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+li {
+    color: #333;
+    font-size: em;
+}
+
+#teksti-container {
+    color: #333;
 }
 
 #kursiivi {
     color: red;
 }
 
-* {
-    color: darkred;
-}
